@@ -2,6 +2,16 @@ import React from "react";
 import Input from "../Input";
 
 const Header = ({ input, textInputHandler }) => {
+  let output = null;
+  if (input.length > 0) {
+    output = (
+      <div className="length-outputWrap">
+        <p className="length-label">Value Length:</p>
+        <p className="length-output">{input.length}</p>
+      </div>
+    );
+  }
+
   return (
     <header>
       <div className="animationArea">
@@ -17,10 +27,7 @@ const Header = ({ input, textInputHandler }) => {
       <div className="contentWrapper">
         <h1>Assignment 2</h1>
         <Input textInput={input} inputHandler={textInputHandler} />
-        <div className="length-outputWrap">
-          <p>Value Length:</p>
-          <p className="length-output">Test</p>
-        </div>
+        {output}
       </div>
     </header>
   );

@@ -9,11 +9,15 @@ header {
   min-height: 50vh;
   .length-outputWrap {
     margin-top: 25px;
+    .length-label {
+      color: white;
+    }
   }
   .length-output {
     margin-top: 10px;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
+    font-size: 1.4rem;
   }
   .animationArea {
     width: 100%;
