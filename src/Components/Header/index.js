@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <header>
       <div className="animationArea"></div>
-      <h1>Assignment 2</h1>
-      <Input />
+      <div className="contentWrapper">
+        <h1>Assignment 2</h1>
+        <Input />
+      </div>
     </header>
   );
 };
