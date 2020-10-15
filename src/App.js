@@ -6,6 +6,7 @@ import Main from "./Components/Main";
 class App extends Component {
   state = {
     input: "",
+    splitWord: [],
   };
 
   textInputHandler = (e) => {
@@ -13,8 +14,13 @@ class App extends Component {
     this.setState((prevState) => {
       return {
         input: text,
+        splitWord: this.wordSplitter(text),
       };
     });
+  };
+  wordSplitter = (text) => {
+    let wordArray = text.split("");
+    return wordArray;
   };
   render() {
     return (
