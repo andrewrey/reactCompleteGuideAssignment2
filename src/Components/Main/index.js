@@ -1,9 +1,10 @@
 import React from "react";
+import Validation from "../Validation";
 
-const Main = () => {
+const Main = ({ input }) => {
   return (
     <main>
-      <h1>Test</h1>
+      <Validation input={input} />
     </main>
   );
 };
