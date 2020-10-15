@@ -7,6 +7,14 @@ header {
   position: relative;
   border: 1px solid black;
   min-height: 50vh;
+  .length-outputWrap {
+    margin-top: 25px;
+  }
+  .length-output {
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+  }
   .animationArea {
     width: 100%;
     display: relative;
@@ -102,7 +110,7 @@ header {
     text-align: left;
     display: inline-block;
     width: 250px;
-    padding: 8px 0;
+    padding: 8px 5px;
     border-radius: 5px;
     border: none;
     outline: none;
