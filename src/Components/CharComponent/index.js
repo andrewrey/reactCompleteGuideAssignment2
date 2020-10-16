@@ -1,9 +1,9 @@
 import React from "react";
 
-const CharComponent = () => {
+const CharComponent = ({ letter }) => {
   return (
     <div>
-      <h1>test</h1>
+      <p>{letter}</p>
     </div>
   );
 };

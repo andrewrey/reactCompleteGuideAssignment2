@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header input={this.state.input} textInputHandler={this.textInputHandler} />
-        <Main input={this.state.input} />
+        <Main input={this.state.input} splitWord={this.state.splitWord} />
       </div>
     );
   }
