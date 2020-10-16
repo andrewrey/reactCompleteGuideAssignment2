@@ -132,3 +132,13 @@ header {
     opacity: 0;
   }
 }
+
+main {
+  border: 1px solid red;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  .mainWrap {
+    flex-grow: 1;
+  }
+}
