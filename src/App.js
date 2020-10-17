@@ -22,11 +22,20 @@ class App extends Component {
     let wordArray = text.split("");
     return wordArray;
   };
+  removeLetterHandler = (char) => {
+    // this.setState((prevState) => ({ splitWord: prevState.splitWord.filter((letter) => letter !== char) }));
+    this.setState((prevState) => {
+      return {
+        splitWord: prevState.splitWord.filter((letter) => letter !== char),
+      };
+    });
+    console.log(char);
+  };
   render() {
     return (
       <div className="App">
         <Header input={this.state.input} textInputHandler={this.textInputHandler} />
-        <Main input={this.state.input} splitWord={this.state.splitWord} />
+        <Main input={this.state.input} splitWord={this.state.splitWord} removechar={this.removeLetterHandler} />
       </div>
     );
   }
