@@ -6,11 +6,9 @@ import Footer from "../Footer";
 const Main = ({ input, splitWord }) => {
   return (
     <main>
-      <div className="mainWrap">
-        <Validation input={input} />
-        <CharWrap splitWord={splitWord} input={input} />
-        <Footer />
-      </div>
+      <Validation input={input} />
+      <CharWrap splitWord={splitWord} input={input} />
+      <Footer />
     </main>
   );
 };
