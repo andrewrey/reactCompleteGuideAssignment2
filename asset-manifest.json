@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactCompleteGuideAssignment2/static/css/main.7620dbec.chunk.css",
+    "main.js": "/reactCompleteGuideAssignment2/static/js/main.e6839b0e.chunk.js",
+    "main.js.map": "/reactCompleteGuideAssignment2/static/js/main.e6839b0e.chunk.js.map",
+    "runtime-main.js": "/reactCompleteGuideAssignment2/static/js/runtime-main.c169389c.js",
+    "runtime-main.js.map": "/reactCompleteGuideAssignment2/static/js/runtime-main.c169389c.js.map",
+    "static/js/2.f14ddfa5.chunk.js": "/reactCompleteGuideAssignment2/static/js/2.f14ddfa5.chunk.js",
+    "static/js/2.f14ddfa5.chunk.js.map": "/reactCompleteGuideAssignment2/static/js/2.f14ddfa5.chunk.js.map",
+    "index.html": "/reactCompleteGuideAssignment2/index.html",
+    "precache-manifest.21e406c51c822b248620de1ea0cf66cf.js": "/reactCompleteGuideAssignment2/precache-manifest.21e406c51c822b248620de1ea0cf66cf.js",
+    "service-worker.js": "/reactCompleteGuideAssignment2/service-worker.js",
+    "static/css/main.7620dbec.chunk.css.map": "/reactCompleteGuideAssignment2/static/css/main.7620dbec.chunk.css.map",
+    "static/js/2.f14ddfa5.chunk.js.LICENSE.txt": "/reactCompleteGuideAssignment2/static/js/2.f14ddfa5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/reactCompleteGuideAssignment2/static/media/pexels-markus-spiske-3872166.cd33634b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c169389c.js",
+    "static/js/2.f14ddfa5.chunk.js",
+    "static/css/main.7620dbec.chunk.css",
+    "static/js/main.e6839b0e.chunk.js"
+  ]
+}
